@@ -1,6 +1,6 @@
 {
   "name": "chrome-profile-list",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Utility package to list available Google Chrome Profiles",
   "main": "index.js",
   "scripts": {
