@@ -63,6 +63,9 @@ console.log(chromeProfileList(chromeProfileList.variants.CHROMIUM));
 
 Israel Roldan
 
+## Related
+- [chrome-profile-list-cli](https://www.npmjs.com/package/chrome-profile-list-cli) a CLI for this module
+
 ## LICENSE
 
 ISC
