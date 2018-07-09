@@ -1,9 +1,10 @@
 {
   "name": "chrome-profile-list",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Utility package to list available Google Chrome Profiles",
   "main": "index.js",
   "scripts": {
+    "release": "standard-version",
     "test": "mocha"
   },
   "repository": {
@@ -26,7 +27,14 @@
     "phylo": "^1.0.0-rc.3"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "standard-version": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
