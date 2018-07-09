@@ -1,0 +1,32 @@
+{
+  "name": "chrome-profile-list",
+  "version": "0.5.0",
+  "description": "Utility package to list available Google Chrome Profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelroldan/chrome-profile-list.git"
+  },
+  "keywords": [
+    "Google",
+    "Chrome",
+    "Chrome",
+    "Profile"
+  ],
+  "author": "Israel Roldan (chrome-profile-list@isro.im)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelroldan/chrome-profile-list/issues"
+  },
+  "homepage": "https://github.com/israelroldan/chrome-profile-list#readme",
+  "dependencies": {
+    "phylo": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
