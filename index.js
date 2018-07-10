@@ -45,8 +45,9 @@ module.exports = function (variant = variations.CHROME) {
         .map(p => {
             let profileInfo = File.from(path.join(locations[osType][variant], p, 'Preferences')).load({type: 'json'});
             return {
-                name: profileInfo.profile.name,
-                profileDir: path.join(locations[osType][variant], p)
+                displayName: profileInfo.profile.name,
+                profileDirName: p,
+                profileDirPath: path.join(locations[osType][variant], p)
             };
         });
 };

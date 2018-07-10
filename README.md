@@ -13,11 +13,14 @@ console.log(chromeProfileList());
 
 // Something like this is logged to the console:
 
-[ { name: 'User',
+[ { displayName: 'User',
+    profileDirName: 'Default',
     profileDir: '/Users/username/Library/Application Support/Google/Chrome/Default' },
-  { name: 'Guest',
+  { displayName: 'Guest',
+    profileDirName: 'Guest Profile',
     profileDir: '/Users/username/Library/Application Support/Google/Chrome/Guest Profile' },
-  { name: 'Person 1',
+  { displayName: 'Person 1',
+    profileDirName: 'Profile 1',
     profileDir: '/Users/username/Library/Application Support/Google/Chrome/Profile 1' } ]
 ```
 
