@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/israelroldan/chrome-profile-list/compare/v1.0.0...v1.1.0) (2018-07-11)
+
+
+### Features
+
+* **List:** Include `profilePictureUrl` in result object ([8a38b1e](https://github.com/israelroldan/chrome-profile-list/commit/8a38b1e))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/israelroldan/chrome-profile-list/compare/v0.6.1...v1.0.0) (2018-07-10)
 
