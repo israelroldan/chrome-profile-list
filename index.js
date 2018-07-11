@@ -47,7 +47,8 @@ module.exports = function (variant = variations.CHROME) {
             return {
                 displayName: profileInfo.profile.name,
                 profileDirName: p,
-                profileDirPath: path.join(locations[osType][variant], p)
+                profileDirPath: path.join(locations[osType][variant], p),
+                profilePictureUrl: profileInfo.profile.gaia_info_picture_url || null
             };
         });
 };

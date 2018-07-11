@@ -15,13 +15,16 @@ console.log(chromeProfileList());
 
 [ { displayName: 'User',
     profileDirName: 'Default',
-    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Default' },
+    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Default',
+    profilePictureUrl: 'https://x.googleusercontent.com/path/to/profile/picture.jpg' },
   { displayName: 'Guest',
     profileDirName: 'Guest Profile',
-    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Guest Profile' },
+    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Guest Profile',
+    profilePictureUrl: null },
   { displayName: 'Person 1',
     profileDirName: 'Profile 1',
-    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Profile 1' } ]
+    profileDir: '/Users/username/Library/Application Support/Google/Chrome/Profile 1',
+    profilePictureUrl: 'https://x.googleusercontent.com/path/to/profile/picture.jpg' } ]
 ```
 
 ## Supported environments
